@@ -181,6 +181,8 @@
     <Content Include="scripts\umd\popper.js" />
     <Content Include="scripts\umd\popper.min.js" />
     <Content Include="ThemSach.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="DBTest.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +215,20 @@
     </Compile>
     <Compile Include="ThemSach.aspx.designer.cs">
       <DependentUpon>ThemSach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBTest.aspx.cs">
+      <DependentUpon>DBTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBTest.aspx.designer.cs">
+      <DependentUpon>DBTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="XemSach.aspx.cs">
       <DependentUpon>XemSach.aspx</DependentUpon>
@@ -277,7 +293,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>64066</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44350/</IISUrl>
+          <IISUrl>http://localhost:44350/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
